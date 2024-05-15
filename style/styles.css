@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 nav {
     background-color: steelblue;
     padding: 10px;
@@ -9,7 +14,9 @@ nav a {
 }
 h1 {
     color: steelblue;
+    padding: .5rem;
 }
+
 img {
     width: 150px;
     height: auto;
@@ -23,12 +30,8 @@ p {
 
 aside {
     width: 20em;
-    margin: 1em ;
-    border: 1px solid rgba(0, 0, 0, 0.2); /* The border color uses the rgba color method in order to take advantage of a subtle, transparent border effect. The RGBA value consists of four values: red, green, blue, and alpha. The first three values (0, 0, 0) represent black, and the last value (.2) represents the alpha or opacity of the color. An alpha value of .2 means that the color is mostly transparent, allowing the background to show through. By using this border color, the border appears very light and barely noticeable, while still providing a subtle visual cue that helps to separate elements on a webpage. Additionally, it can help to add a layer of visual interest to the design without being overly distracting or detracting from the overall layout.The border color uses the rgba color method in order to take advantage of a subtle, transparent border effect. The RGBA value consists of four values: red, green, blue, and alpha. The first three values (0, 0, 0) represent black, and the last value (.2) represents the alpha or opacity of the color. An alpha value of .2 means that the color is mostly transparent, allowing the background to show through. By using this border color, the border appears very light and barely noticeable, while still providing a subtle visual cue that helps to separate elements on a webpage. Additionally, it can help to add a layer of visual interest to the design without being overly distracting or detracting from the overall layout.*/
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
     text-align: center;
+    position: relative;
 }
 aside img {
     width: 200px;
@@ -36,13 +39,36 @@ aside img {
 }
 main img{
     width: 150px;
-    height: auto; 
+    height: auto;
+    float: right;
 }
 
-p {padding: 0;}
+aside h2 {
+    position: absolute ;
+    top: 25px;
+    left: 125px;
+}
+
+p {padding: 0;
+    padding-left: 1rem;
+}
 
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+    /* Class Selectors */
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 1rem;
+    background-color: #eee;
+    color: #000;
+}
+
+.indent {
+    padding-left: 2rem;
 }
