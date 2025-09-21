@@ -53,14 +53,13 @@ article {
     background-color: var(--accent2-color);
     text-align: left;
     box-sizing: border-box;
-    top: 285px;
+    top: 90px;
     left: 2px;
 
 }
 .hero article img {
     float: right;
     width: 125px;
-    background-color: #fff;
 }
 section h2 {
     text-align: center;
