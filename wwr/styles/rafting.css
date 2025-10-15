@@ -162,10 +162,7 @@ footer {
     border-top: 1px solid #264653;
     background-color: #f4f4f4;
     margin-top: 15px;
-    border-top: 1px solid;
 }
-
-
 /* Css code for the Contact Us page  */
 
 /* Contact Information */
@@ -261,7 +258,6 @@ main h1 {
     background-color: #f2f2f2;
     padding: 5px 0 5px 0;
     border-top: 2px solid #ccc;
-    border-bottom: 2px solid #ccc;
 }
 
 .team h2 {
